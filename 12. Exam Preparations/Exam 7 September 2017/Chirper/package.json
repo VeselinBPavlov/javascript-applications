@@ -1,0 +1,10 @@
+{
+  "name": "Chirper",
+  "version": "1.0.0",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "handlebars": "^4.0.10",
+    "jquery": "^3.2.1",
+    "sammy": "^0.7.6"
+  }
+}

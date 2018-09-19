@@ -1,0 +1,14 @@
+https://testapp-1fe4d.firebaseio.com/Books/7.json
+
+// PUT Request
+//{
+//	"title":"Edited",
+//	"year":1980,
+//	"ISBN":"954X"
+//}
+
+// PATCH Request
+//{
+//	"year":1981,
+//	"author":"Author Changed"
+//}

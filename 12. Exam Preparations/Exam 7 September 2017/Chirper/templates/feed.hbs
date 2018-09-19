@@ -1,0 +1,36 @@
+{{> header}}
+{{> menu}}
+
+<div class="content">
+    <div class="chirper">
+
+        {{#if filter}}
+            <h2 class="titlebar">{{filter}}</h2>
+        {{else}}
+            <h2 class="titlebar">{{currentUser}}</h2>
+        {{/if}}
+
+        {{#if isMe}}
+            <form class="chirp-form" id="formSubmitChirp" action="#/chirp" method="post">
+                <textarea name="text" class="chirp-input"></textarea>
+                <input class='chirp-submit' id="btnSubmitChirp" type="submit" value="Chirp">
+            </form>
+        {{else}}
+            {{#if isFollowing}}
+                <a id="btnUnfollow" class="chirp-author" href="#/unfollow/{{filter}}">Unfollow</a>
+            {{else}}
+                <a id="btnFollow" class="chirp-author" href="#/follow/{{filter}}">Follow</a>
+            {{/if}}
+        {{/if}}
+
+        <div id="userStats" class="user-details">
+            <span class="loading">Loading stats&hellip;</span>
+        </div>
+    </div>
+    <div id="chirps" class="chirps">
+        <h2 class="titlebar">Chirps</h2>
+        <div class="chirp"><span class="loading">Loading &hellip;</span></div>
+    </div>
+</div>
+
+{{> footer}}

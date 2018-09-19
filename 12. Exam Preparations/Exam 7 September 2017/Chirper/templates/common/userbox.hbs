@@ -1,0 +1,18 @@
+<div class="userbox">
+    <div><a href="#/feed/{{username}}" class="chirp-author">{{username}}</a></div>
+
+    {{#if isFeed}}
+        <div>Follow</div>
+    {{/if}}
+
+    <div class="user-details">
+        <span>{{followers}} followers</span>
+    </div>
+
+    {{#if isMe}}
+        <form id="formSubmitChirp" action="#/chirp" method="post">
+            <textarea name="text" class="chirp-input"></textarea>
+            <input id="btnSubmitChirp" type="submit" value="Chirp">
+        </form>
+    {{/if}}
+</div>

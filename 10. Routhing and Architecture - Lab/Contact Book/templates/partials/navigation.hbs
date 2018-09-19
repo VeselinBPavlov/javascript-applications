@@ -1,0 +1,11 @@
+<nav id="navigation">
+    <a href="#/index.html">home</a>
+    {{#if isAuth}}
+        <a href="#/contacts">contacts</a>
+        <a href="#/profile">my profile</a>
+        <a href="#/logout">logout</a>
+    {{else}}
+        <a href="#/login">login</a>
+        <a href="#/register">register</a>
+    {{/if}}
+</nav>

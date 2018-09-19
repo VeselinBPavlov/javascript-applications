@@ -1,0 +1,17 @@
+<section id="home">
+    <div class="container centered">
+        {{> header}}
+        {{> navigation}}
+        <div id="titlePage">
+            {{#if isAuth}}
+                <h2>Hello, {{firstName}} {{lastName}}!</h2>
+                <p>Your Contact Book is ready to use.</p>
+            {{else}}
+                <h2>Welcome to Contact Book App!</h2>
+                <p>The Contact Book is on your service.</p>
+            {{/if}}
+
+        </div>
+        {{> footer}}
+    </div>
+</section>

@@ -1,0 +1,6 @@
+<h2 class="titlebar">Chirps</h2>
+{{#each chirps}}
+    {{> chirp}}
+{{else}}
+    <div class="chirp"><span class="loading">No chirps in database</span></div>
+{{/each}}

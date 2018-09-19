@@ -1,0 +1,16 @@
+<div class="flight-ticket">
+    <div class="flight-left">
+        <img src="{{image}}" alt="">
+    </div>
+    <div class="flight-right">
+        <div>
+            <h3>{{destination}}</h3><span>{{departureDate}}</span>
+        </div>
+        <div>
+            {{origin}} <span>{{departureTime}}</span>
+        </div>
+        <p>{{seats}} Seats ({{cost}}$ per seat) </p>
+        <a href="#/remove/:{{_id}}" class="remove">REMOVE</a>
+        <a href="#/flights/:{{_id}}" class="details">Details</a>
+    </div>
+</div>

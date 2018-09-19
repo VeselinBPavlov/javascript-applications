@@ -1,0 +1,28 @@
+[
+  {
+    "_id": "5b56b4908a8f805ce8abe384",
+    "title": "Game of Thrones",
+    "author": "George R.R. Martin",
+    "isbn": "0-5566-3269-9",
+    "_acl": {
+      "creator": "kid_ryCWmEVVQ"
+    },
+    "_kmd": {
+      "lmt": "2018-07-24T05:09:36.161Z",
+      "ect": "2018-07-24T05:09:36.161Z"
+    }
+  },
+  {
+    "_id": "5b56b69d349cfe05a1e99a9a",
+    "author": "Ivan Vazov",
+    "title": "Pod Igoto",
+    "isbn": "0-5445-3366-3",
+    "_acl": {
+      "creator": "kid_ryCWmEVVQ"
+    },
+    "_kmd": {
+      "lmt": "2018-07-24T05:18:21.976Z",
+      "ect": "2018-07-24T05:18:21.976Z"
+    }
+  }
+]

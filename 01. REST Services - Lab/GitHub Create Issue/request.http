@@ -1,0 +1,10 @@
+https://api.github.com/repos/testnakov/test-nakov-repo/issues
+
+// POST Request
+//{
+//   "title":"I have created an issue",
+//	"body":"Minor bug",
+//	"labels":["bug","minor"]
+//}
+
+###
